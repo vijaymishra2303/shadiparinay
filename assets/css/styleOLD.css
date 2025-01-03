@@ -1,0 +1,1421 @@
+@font-face {
+    src: url("../fonts/Merienda-Bold.ttf");
+    font-family: Merienda-Bold;
+}
+
+@font-face {
+    src: url("../fonts/Merienda-Regular.ttf");
+    font-family: Merienda-Regular;
+}
+
+body {
+    font-family: poppins;
+}
+
+.marZero {
+    margin: 0px !important;
+}
+
+.padZero {
+    padding: 0px !important;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+font-family: 'Merienda-Regular';}
+
+.form-group label span {}
+
+.iAccept {
+    display: flex;
+}
+
+.iAccept input {
+    margin-right: 10px;
+}
+
+.regBtn {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.regBtn a,
+.regBtn input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    background: var(--main-color);
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+}
+
+.form-group span {
+    width: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+.form-group input,
+.form-group select {
+    color: rgb(153, 153, 153);
+    border: none;
+    padding-left: 45px;
+    width: 100%;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+    border-radius: 5px;
+}
+
+.form-group select+figure {
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+ .spaceSelect .form-group select + figure {TOP: 43PX;}
+
+
+
+.form-group span img {}
+
+select {
+    appearance: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    appearance: none;
+}
+
+.form-control:focus {
+    outline: 1px solid var(--main-color);
+    box-shadow: none;
+}
+
+.form-group .slc {
+    width: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    left: 200px;
+}
+
+:root {
+    --main-color: linear-gradient(90deg, rgba(163, 0, 0, 1) 0%, rgba(197, 0, 47, 1) 50%, rgba(91, 0, 22, 1) 100%);
+
+    --main-color: #c5002f;
+    --sec-color: #FFF5FE;
+    --zero: 0 !important;
+}
+
+.fulWidth {
+    width: 100%;
+}
+
+.mar30 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.myBtn {
+    margin: 0px auto;
+    padding: 10px 30px;
+    box-shadow: rgba(49, 49, 49, 0.1) 0px 100px 80px, rgba(49, 49, 49, 0.075) 0px 64.8148px 46.8519px, rgba(49, 49, 49, 0.06) 0px 38.5185px 25.4815px, rgba(49, 49, 49, 0.05) 0px 20px 13px, rgba(49, 49, 49, 0.04) 0px 8.14815px 6.51852px, rgba(49, 49, 49, 0.024) 0px 1.85185px 3.14815px;
+    border-radius: 3px;
+    background: var(--main-color);
+    display: block;
+    width: fit-content;
+    color: rgb(255, 255, 255) !important;
+}
+
+.myHeading {
+    margin-bottom: 30px;
+}
+
+.myHeading h3 {
+    margin: 0px 0px 20px;
+    font-family: Merienda-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.myHeading2 {
+    margin-bottom: 0px;
+}
+
+.myHeading2 h4 {
+    font-family: Merienda-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.myHeading p {
+    padding: 0px 13%;
+    font-family: Merienda-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+}
+
+.flexBan {
+    display: flex;
+    align-items: center;
+}
+
+.para {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 146%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.myHeading h3 span,
+.myHeading2 h4 span {
+    color: var(--main-color);
+}
+
+.myHeader {
+    border-bottom: 1px dashed var(--main-color);
+    background: var(--sec-color);
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.myHeader .mainHeader {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.myHeader .mainHeader .logo {}
+
+.myHeader .mainHeader .logo figure {}
+
+.myHeader .mainHeader .logo figure a {}
+
+.myHeader .mainHeader .logo figure a img {}
+
+.myHeader .mainHeader nav {
+    display: flex;
+}
+
+.myHeader .mainHeader nav ul {
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+}
+
+.myHeader .mainHeader nav ul.menu1 {}
+
+.myHeader .mainHeader nav ul.menu2 {
+    margin-left: 180px;
+}
+
+.myHeader .mainHeader nav ul li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.myHeader .mainHeader .myNav .closeMe {
+    display: none;
+}
+
+.myHeader .mainHeader nav ul li a {
+    font-family: Merienda-Regular;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myHeader .mainHeader nav ul li a.active {
+    position: relative;
+    color: var(--main-color);
+}
+
+.myHeader .mainHeader nav ul li a.active::before {
+    top: -10px;
+    position: absolute;
+    content: url("../images/icons/active-menu.svg");
+    right: auto;
+    left: auto;
+}
+
+.banner {
+    padding: 60px 0px;
+    background: var(--sec-color);
+}
+
+.banner .banCard {}
+
+.banner .banCard figure {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banCard figure img {
+    width: 63%;
+}
+
+.banner .banCard .icon1 {
+    top: 15%;
+    position: absolute;
+    left: 9%;
+}
+
+.banner .banCard .icon1 img {}
+
+.banner .banCard .icon2 {
+    right: 30%;
+    position: absolute;
+    top: 7%;
+}
+
+.banner .banCard .icon2 img {}
+
+.banner .banCard .icon3 {
+    right: 4%;
+    position: absolute;
+    top: 29%;
+}
+
+.banner .banCard .icon3 img {}
+
+.banner .banCard .icon4 {
+    position: absolute;
+    bottom: 22%;
+    right: 3%;
+}
+
+.banner .banCard .icon4 img {}
+
+.banner .banCard .mySlider {}
+
+.banner .banCard .mySlider .mySlide {
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.banner .banCard .mySlider .mySlide .slidDetail {}
+
+.banner .banCard .mySlider .mySlide .slidDetail h4 {
+    font-family: Merienda-Regular;
+    font-weight: 600;
+    margin: 0px 0px 5px;
+}
+
+.banner .banCard .mySlider .mySlide .slidDetail p {
+    margin: 0px;
+}
+
+.banner .banCard .mySlider .mySlide figure {
+    margin-right: 10px;
+}
+
+.banner .banCard .mySlider .mySlide figure img {
+    width: 90%;
+}
+
+.banner .banCard .mySlider .slideDetail {}
+
+.banner .banCard .mySlider .slideDetail h4 {}
+
+.banner .banCard .mySlider .slideDetail p {}
+
+.bannerForm {}
+
+.banner .bannerForm p {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: Merienda-Regular;
+}
+
+.banner .bannerForm p span {
+    color: var(--main-color);
+}
+
+.banner .bannerForm .btn {
+    padding: 0px;
+}
+
+.birthDay {
+    position: relative;
+    padding: 100px 0px;
+}
+
+.birthDay::before {
+    content: url("../images/icons/celeb1.svg");
+    position: absolute;
+}
+
+.birthDay::after {
+    bottom: 0px;
+    content: url("../images/icons/celeb2.svg");
+    position: absolute;
+    right: 0px;
+}
+
+.birthDay .wishesCard {
+    margin: 4px;
+    padding: 10px 13px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 7px;
+    border-radius: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.birthDay .wishesCard:hover {
+    color: rgb(255, 255, 255);
+    background: var(--main-color);
+}
+
+.birthDay .wishesCard:hover .wishesText h3 {
+    color: rgb(255, 255, 255);
+}
+
+.birthDay .wishesCard figure {
+    margin: 0px 10px 0px auto;
+}
+
+.birthDay .wishesCard figure img {
+    height: 140px;
+    border-radius: 70px;
+    object-fit: cover;
+    width: 140px;
+}
+
+.birthDay .wishesCard .wishesText {
+    line-height: 15px;
+}
+
+.birthDay .wishesCard .wishesText h3 {
+    color: var(--main-color);
+    font-family: Merienda-Regular;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 9px !important;
+}
+
+.birthDay .wishesCard .wishesText p {
+    font-family: Merienda-Regular;
+}
+
+.birthDay .wishesCard .wishesText .bestWishes {
+    font-family: Merienda-Regular;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.featuredBrige::before {
+    left: 10%;
+    content: url("../images/icons/heart.svg");
+    position: absolute;
+}
+
+.featuredBrige::after {
+    bottom: 25px;
+    content: url("../images/icons/heart.svg");
+    position: absolute;
+    right: 0px;
+}
+
+.featuredBrige {
+    position: relative;
+    padding: 60px 0px;
+}
+
+.featuredBrige .bgOver {
+    background: rgb(255, 247, 239);
+    height: 300px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+
+.featuredBrige .brigeProfile {}
+
+.featuredBrige .brigeProfile .brigeCard {
+    margin: 7px 0px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 373px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 7px;
+    border-radius: 240px;
+}
+
+.featuredBrige .brigeProfile .brigeCard a {
+    height: inherit;
+    display: block;
+}
+
+.featuredBrige .brigeProfile .brigeCard:hover {
+    background: var(--main-color);
+}
+
+.featuredBrige .brigeProfile .brigeCard:hover a {
+    text-decoration: none;
+}
+
+.featuredBrige .brigeProfile .brigeCard:hover h3,
+.featuredBrige .brigeProfile .brigeCard:hover p {
+    color: rgb(255, 255, 255);
+}
+
+.featuredBrige .brigeProfile .brigeCard figure {
+    padding-top: 14px;
+}
+
+.featuredBrige .brigeProfile .brigeCard figure img {
+    margin: 0px auto;
+    width: 86%;
+    border-radius: 115px;
+    display: flex;
+    object-fit: cover;
+    height: 220px;
+}
+
+.featuredBrige .brigeProfile .brigeDetail {
+    font-family: Merienda-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+    text-align: center;
+}
+
+.featuredBrige .brigeProfile .brigeDetail h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 146%;
+    text-align: center;
+    color: var(--main-color);
+    margin: 5px 0px 0px;
+}
+
+.featuredBrige .brigeProfile .brigeDetail p {
+    margin: 0px 0px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 146%;
+}
+
+.featuredGroom::before {
+    content: url("../images/icons/heart.svg");
+    position: absolute;
+}
+
+.featuredGroom::after {
+    bottom: 0px;
+    content: url("../images/icons/heart.svg");
+    position: absolute;
+    right: 10px;
+}
+
+.featuredGroom {
+    position: relative;
+    padding: 60px 0px;
+}
+
+.featuredGroom .groomProfile {}
+
+.featuredGroom .groomProfile .brigeCard {
+    width: 82%;
+    height: 373px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 7px;
+    border-radius: 240px;
+}
+
+.featuredGroom .groomProfile .brigeCard figure {
+    padding-top: 14px;
+}
+
+.featuredGroom .groomProfile .brigeCard figure img {
+    margin: 0px auto;
+    width: 82%;
+    border-radius: 115px;
+    display: flex;
+    object-fit: cover;
+    height: 193px;
+}
+
+.featuredGroom .groomProfile .brigeDetail {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+    text-align: center;
+}
+
+.featuredGroom .groomProfile .brigeDetail h3 {
+    font-size: 16px;
+    color: rgb(197, 0, 47);
+}
+
+.featuredGroom .groomProfile .brigeDetail p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 146%;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.solution {
+    background: var(--sec-color);
+    padding: 60px 0px;
+}
+
+.sweetStories {
+    padding: 60px 0px;
+}
+
+.sweetStories .loverProfile {}
+
+.sweetStories .loverProfile .loverCard {
+    margin: 3px 4px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 7px;
+    border-radius: 200px 200px 10px 10px;
+    height: 342px;
+    padding: 15px;
+}
+
+.sweetStories .loverProfile .loverCard:hover {
+    background: var(--main-color);
+}
+
+.sweetStories .loverProfile .loverCard:hover h3 {
+    color: rgb(255, 255, 255);
+}
+
+.sweetStories .loverProfile figure {
+    width: 100%;
+}
+
+.sweetStories .loverProfile figure img {
+    margin: 0px auto;
+    border-radius: 220px;
+    object-fit: cover;
+    height: 240px;
+}
+
+.sweetStories .loverProfile .loverNAme {}
+
+.sweetStories .loverProfile .loverName h3 {
+    font-family: Merienda-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(197, 0, 47);
+    text-align: center;
+}
+
+.testimonial {
+    position: relative;
+    padding: 60px 0px;
+    background: var(--sec-color);
+}
+
+.testimonial::before {
+    position: absolute;
+    content: url("../images/icons/dots.svg");
+    top: 0px;
+    left: 0px;
+}
+
+.testimonial .testimonialText {}
+
+.testimonial .testimonialText .text {
+    border-radius: 135px;
+    padding: 35px 10px;
+    text-align: center;
+    font-family: Merienda-Regular;
+    background: rgb(255, 255, 255);
+}
+
+.testimonial .testimonialText .text p {
+    width: 75%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(66, 84, 102);
+    margin: 0px auto;
+}
+
+.testimonial .testimonialText .names {}
+
+.testimonial .testimonialText .names h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(49, 49, 49);
+}
+
+.testimonial .testimonialText .names h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: rgb(66, 84, 102);
+}
+
+.myFooter {
+    padding-top: 60px;
+}
+
+.myFooter .footerArea {
+    padding: 0px 0px 40px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.myFooter .footerArea .logowithSocialarea {
+    text-align: start;
+}
+
+.myFooter .footerArea .logowithSocialarea figure {}
+
+.myFooter .footerArea .logowithSocialarea figure img {}
+
+.myFooter .footerArea .logowithSocialarea p {
+    margin: 15px 0px;
+    font-family: Merienda-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.myFooter .footerArea .logowithSocialarea nav {}
+
+.myFooter .footerArea .logowithSocialarea nav ul {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+}
+
+.myFooter .footerArea .logowithSocialarea nav ul li {}
+
+.myFooter .footerArea .logowithSocialarea nav ul li a {
+    padding: 5px;
+}
+
+.myFooter .footerArea .resource {
+    font-family: Merienda;
+}
+
+.myFooter .footerArea .resource h3 {
+    font-family: Merienda-Regular;
+    margin: 0px 0px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(28, 28, 29);
+}
+
+.myFooter .footerArea .resource nav {}
+
+.myFooter .footerArea .resource nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.myFooter .footerArea .resource nav ul li {}
+
+.myFooter .footerArea .resource nav ul li a {
+    font-family: Merienda-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    line-height: 37px;
+}
+
+.myFooter .subFooter {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.myFooter .subFooter p {
+    margin: 0px;
+}
+
+.myFooter .subFooter p a {
+    color: var(--main-color);
+}
+
+.contactDetail {}
+
+.contactDetail .dtInfo {
+    display: flex;
+    font-size: 16px;
+    font-family: Merienda-Regular;
+    margin-bottom: 10px;
+}
+
+.contactDetail .dtInfo span {
+    width: 20px;
+    text-align: center;
+}
+
+.contactDetail .dtInfo span img {}
+
+.contactDetail .dtInfo a {
+    color: var(--main-color);
+    margin-left: 8px;
+}
+
+.contactDetail .dtInfo p {
+    margin-left: 10px;
+    line-height: 1.6;
+}
+
+ul#tabs-nav {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    overflow: auto;
+    justify-content: center;
+}
+
+ul#tabs-nav li {
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 10px 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+    background-color: var(--main-color);
+}
+
+ul#tabs-nav li.active a,
+ul#tabs-nav li:hover a {
+    color: rgb(255, 255, 255);
+}
+
+#tabs-nav li a {
+    font-family: Merienda-Regular;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.tab-content {
+    text-align: center;
+    font-family: Merienda-Regular;
+    padding: 40px 0px;
+    line-height: 1.8;
+}
+
+.banner .registerSlider {}
+
+.banner .registerSlider .mySlide {}
+
+.banner .registerSlider .mySlide figure {}
+
+.banner .registerSlider .mySlide figure img {
+    height: 630px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner .registerPage {}
+
+.banner .bannerForm {}
+
+.banner .bannerForm .forgot {
+    max-width: 125px;
+}
+
+.banner .bannerForm .forgot a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Merienda-Regular;
+    color: var(--main-color);
+}
+
+.banner .bannerForm .dontHave {
+    display: flex;
+    margin-top: 6px;
+}
+
+.banner .bannerForm .dontHave p {
+    font-size: 15px;
+    font-family: Merienda-Regular;
+}
+
+.banner .bannerForm .dontHave .dont {
+    font-size: 15px;
+    font-family: Merienda-Regular;
+    color: var(--main-color);
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.banner .loginSlider {}
+
+.banner .loginSlider .mySlide {}
+
+.banner .loginSlider .mySlide figure {}
+
+.banner .loginSlider .mySlide figure img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner .bgImg {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+}
+
+.bgPicture {
+    background-size: cover;
+    background-image: url("../images/regimg2.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+.banner .bgImg .backHome {}
+
+.banner .bgImg .backHome a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Merienda-Regular;
+    color: var(--main-color);
+    position: absolute;
+    top: 93px;
+}
+
+.banner .bgImg .backHome a span {
+    padding-right: 7px;
+}
+
+.banner .bgImg .backHome figure img {}
+
+.banner .alreadyLogin {
+    margin-top: 10px;
+}
+
+.alreadyLogin a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: Merienda-Regular;
+    font-size: 15px;
+}
+
+.loginbgPicture {
+    background-image: url("../images/regimg2.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.loginbgPicture .bgImg {
+    margin-top: 150px;
+    max-width: 500px;
+}
+
+.myHeadingReg {
+    margin-top: 30px;
+}
+
+.loginbgPicture .bgImg .backHome a {
+    top: 15px;
+}
+
+.loginbgPicture .bgImg .loginLogo {
+    padding: 30px 0px;
+}
+
+.loginbgPicture .bgImg .loginHeading h3 {
+    font-size: 30px;
+}
+
+.profileBanner {}
+
+.profileBanner .textD {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: Merienda-Regular;
+}
+
+.profileBanner .textD h3 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.profileBanner {
+    background: url("../images/regimg2.jpg") center center / cover;
+    padding: 30px 0px;
+    position: relative;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.profileBanner::before {
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.83);
+    position: absolute;
+    border-radius: 12px;
+}
+
+.profileBanner .dashBoard {}
+
+.profileBanner .dashBoard ul {}
+
+.profileBanner .dashBoard ul li {}
+
+.profileBanner .dashBoard ul li a {}
+
+.profileBanner {}
+
+.profileBanner {
+    background: url("../images/regimg2.jpg") center center / cover;
+    padding: 30px 0px;
+    position: relative;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.profileBanner::before {
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.83);
+    position: absolute;
+    border-radius: 12px;
+}
+
+.profile {}
+
+.profile .profileFullDetail {
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 30px 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+.profile .profileFullDetail .proPic figure {
+    width: 100%;
+}
+
+
+.profile .profileFullDetail .proPic figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 230px;
+    cursor: pointer;
+}
+
+.profile .profileFullDetail .nameHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dashed rgba(197, 8, 53, 0.1);
+}
+
+.profile .profileFullDetail .nameHeading h3 {
+    font-family: Merienda-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.profile .profileFullDetail h3 span {
+    color: var(--main-color);
+}
+
+.profile .profileFullDetail .profileLocation {
+    display: flex;
+    align-items: baseline;
+}
+
+.profile .profileFullDetail .profileLocation img {
+    display: flex;
+}
+
+.profile .profileFullDetail .profileLocation p {
+    font-family: Merienda-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 5px;
+}
+
+.profile .profileFullDetail .gotra {}
+
+.profile .profileFullDetail .gotra ul {
+    margin-top: 12px;
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.profile .profileFullDetail .gotra ul li {
+    padding: 7px 0px;
+    border-bottom: 1px dashed rgba(197, 8, 53, 0.1);
+    width: 50%;
+    display: flex;
+    line-height: 24px;
+}
+
+.profile .profileFullDetail .gotra ul li span {
+    font-weight: 400;
+    color: var(--main-color);
+    font-size: 13px;
+    padding: 0px 7px;
+}
+
+.profile .profileFullDetail .gotra ul li p {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+.profile .profileFullDetail .gotra ul li figure {}
+
+.profile .profileFullDetail .gotra ul li figure img {
+    display: flex;
+}
+
+.myHeading2 h3 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.profile .profileFullDetail2 {
+    padding: 10px;
+}
+
+.profile .dashBoard {
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 30px 1px;
+    border-radius: 5px;
+}
+
+.profile .dashBoard ul {
+    padding: 0px 10px;
+    list-style-type: none;
+}
+
+.profile .dashBoard ul li {
+    margin-bottom: 3px;
+}
+
+.profile .dashBoard ul li a {
+    display: flex;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.profile .dashBoard ul li a img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.profile .dashBoard ul li a:hover {
+    padding: 0px 10px;
+    background-color: var(--main-color);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.profile .dashBoard ul li a:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.profile .resultArea {
+
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 30px 1px; */
+}
+
+.profile .resultArea .searchCard {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 30px 1px;
+}
+
+.profile .resultArea .searchCard figure {
+    position: relative;
+}
+
+.profile .resultArea .searchCard figure:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgb(0 0 0 / 66%);
+    width: 100%;
+    height: 100%;
+}
+
+.profile .resultArea .searchCard figure img {
+    position: relative;
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+}
+
+.profile .resultArea .searchCard h4 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgb(239, 239, 239);
+}
+
+.profile .resultArea .searchCard h4 p {
+    font-size: 22px;
+    margin: 0;
+    color: var(--main-color);
+    margin-bottom: 5px;
+}
+
+.profile .resultArea .searchCard ul {
+    margin: var(--zero);
+    padding: var(--zero);
+}
+
+.profile .resultArea .searchCard ul li {
+    list-style-type: none;
+    margin-bottom: 3px;
+    line-height: 22px;
+}
+
+.profile .resultArea .searchCard ul li strong {
+    margin-right: 6px;
+}
+
+.profile .resultArea .searchCard {}
+
+.profile .resultArea .searchCard a {
+    margin-top: 5px;
+    background: var(--main-color);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 76px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+.profile .resultArea button {
+    position: fixed;
+    top: 45%;
+    left: -45px;
+    transform: rotate(90deg);
+    background: var(--main-color);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    z-index: 9999999;
+}
+
+.profile .resultArea button img {}
+
+.profile .resultArea .searchB p {}
+
+.profile .resultArea .searchB {}
+
+.searchWindow {
+    z-index: 9999999;
+    background-image: url(../images/searchbg.jpg);
+    background-size: cover;
+    top: -100%;
+    transition: all 0.5s ease 0s;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.searchWindow:before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    background: rgb(197 0 47 / 54%);
+    width: 100%;
+    height: 100%;
+}
+
+.searchWindow p {}
+
+.searchWindow.active {
+    top: 0px;
+}
+
+.searchWindow .closse {
+    position: absolute;
+    right: 25px;
+    top: 17px;
+    display: flex;
+}
+
+.searchWindow .closse img {
+    cursor: pointer;
+    width: 22px;
+}
+
+.searchWindow .searchFilter {
+    border-radius: 5px;
+    position: relative;
+    padding: 25px;
+
+    background: #fff;
+    width: 50%;
+}
+
+.searchWindow .searchFilter .logo {
+    margin-bottom: 25px;
+}
+
+.searchWindow .searchFilter .logo img {
+    width: 25%;
+}
+
+.searchWindow .searchFilter .bannerForm button {
+    width: 100%;
+    height: 40px;
+    background: var(--main-color);
+    border: none;
+}
+
+.profileView {}
+
+.profileView .modal-content {
+
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.profileView .owl-nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileView .owl-nav .owl-prev,
+.profileView .owl-nav .owl-next {
+    color: #fff;
+}
+
+.modal-backdrop.in {
+    opacity: 0.8;
+}
+
+.profile .profileFullDetail .profilepicUpdate{display: flex;align-items: baseline;}
+.profile .profileFullDetail .profilepicUpdate figure{width: 100%;}
+.profile .profileFullDetail .profilepicUpdate figure img{
+    
+    object-fit: contain;
+    width: 170px;}
+    .profile .profileFullDetail .profilepicUpdate .profilePicUpload{}
+    .profile .profileFullDetail .profilepicUpdate .profilePicUpload .uploadLabel img{cursor: pointer;margin-left: 65px;margin-top: -26px;}
+    .profile .profileFullDetail .profilepicUpdate .profileGallery{}
+
+
+.profile .profileFullDetail  .profileGallery ul {padding: 0px;display: flex;list-style-type: none;}
+.profile .profileFullDetail .profilepicUpdate .profileGallery ul li{}
+.profile .profileFullDetail  .profileGallery ul li figure{}
+.profile .profileFullDetail  .profileGallery ul li img{width: 70%;object-fit: contain;border-radius: 86px;}
+
+.profile .profileFullDetail .profilepicUpdate a{color: var(--main-color);text-decoration: none;}
+.profile .profileFullDetail .profilepicUpdate figure .uploadLabel img{cursor: pointer;height: 60px;width: 100%;margin-left: 38px;}
+#upload-photo {
+
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+
+.profile .profileFullDetail .proeditHeading{}
+ .proeditHeading h4 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 16px;
+    padding: 16px 0px;
+    border-bottom: 1px solid #8080801f;
+}
+
+.profile .profileFullDetail button {
+    width: 100%;
+    height: 40px;
+    background: var(--main-color);
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+
+
